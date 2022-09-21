@@ -1,9 +1,7 @@
 import { Locator, expect, Page } from '@playwright/test';
 
-
 export class RunnersPage {
 
-    //Locators
     readonly page: Page;
     readonly menuButton: Locator;
 
