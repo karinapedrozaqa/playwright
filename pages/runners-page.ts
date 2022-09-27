@@ -9,6 +9,7 @@ export class RunnersPage {
     }
 
     async thePageLoads() {
+        await expect(this.page).toHaveURL('/running/'); //I have to regex this
         await expect(this.page).toHaveTitle(/Running. Nike MX/);
     }
 }
